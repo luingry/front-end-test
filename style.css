@@ -321,10 +321,10 @@ table {
 		font-size: 2.5em;
 	}
 	.nav .wrapper .link-list li.nav-item{
-		height: 70px;
+		height: 90px;
 	}
 	.nav .wrapper .link-list>ul, .nav.mobile-nav-active .wrapper .link-list{
-		height: 568px;
+		height: 728px;
 	}
 
 } 
