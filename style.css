@@ -298,7 +298,6 @@ table {
 .nav.mobile-nav-active .menu-toggle, .nav.search-bar-active .search{
 	color: gray;
 }
-/* 
 @media screen and (max-width: 768px){
 	.newsletter .e-mail{
 		height: 100px;
@@ -311,7 +310,13 @@ table {
 		max-width: 100%;
 		width: 100%;
 	}
-} */
+	.social-icons .icon-list>li{
+		font-size: 5em;
+	}
+	.newsletter form{
+		flex-direction: column;
+	}
+} 
 @media screen and (max-width: 1368px){
 	.menu-toggle{
 		display: inherit;
@@ -362,6 +367,7 @@ table {
 	.nav .search-form input{
 		border: 0;
 		border-bottom: 1px solid #aaaaaa;
+		font-size: 2em;
 		height: 40%;
 		padding-left: 30px;
 		width: 100%;
@@ -376,5 +382,10 @@ table {
 		border-bottom: 2px solid black;
 		outline: none;
 	}
+	.nav-item.nav-icons{
+		font-size: 3em;
+	}
 	
 }
+ 
+
