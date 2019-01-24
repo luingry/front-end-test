@@ -337,6 +337,7 @@ table {
 	}
 	.nav .link-list li.nav-item{
 		border-top: 1px solid #ddd;
+		font-size: 1.5em;
 		height: 40px;
 		justify-content: center;
 		margin: 0;
