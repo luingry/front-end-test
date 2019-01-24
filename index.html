@@ -2,12 +2,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Anna Johnson | Photography</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<header>
-		<nav>
-			<div>
-				<div class="logo"></div>
+	<header class="center">
+		<nav class="nav">
+			<div class="wrapper">
+				<div class="logo"> <img src="assets/images/logo.png"></div>
 				<ul>
 					<li>Home</li>
 					<li>Pages</li>
@@ -23,21 +24,50 @@
 			</div>
 		</nav>
 	</header>
-	<div class="banner-home">
+	<div class="banner-home center">
 	</div>
-	<div class="main-info">
+	<div class="main-info center">
 		<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua.</h1>
 	</div>
-	<div class="showcase-main">
-		<div class="showcase-grid">
-			<img src="assets/gallery-1.jpg" alt="">
-			<img src="" alt="">
-			<img src="" alt="">
+	<section class="showcase-main center">
+		<div class="showcase-block">
+			<div>
+				<img src="assets/images/gallery-1.jpg" alt="">
+				<img src="assets/images/gallery-2.jpg" alt="">
+			</div>
+			<div>
+				<img src="assets/images/gallery-3.jpg" alt="">
+			</div>
 		</div>
-	</div>
-	<footer>
-		
+		<div class="showcase-block">
+			<div>
+				<img src="assets/images/gallery-4.jpg" alt="">
+			</div>
+			<div>
+				<img src="assets/images/gallery-5.jpg" alt="">
+				<img src="assets/images/gallery-6.jpg" alt="">
+			</div>
+		</div>
+	</section>
+	<footer class="center">
+		<div class="newsletter justify-center">
+			<form>
+				<input type="text" name="e-mail">
+				<button type="submit">Sign up</button>
+			</form>
+		</div>
+		<div class="social-icons justify-center">
+			<ul>
+				<li>fb icon</li>
+				<li>instagram icon</li>
+				<li>be icon</li>
+				<li>algum icon</li>
+			</ul>
+		</div>
+		<div class="copyright justify-center">
+			Copyright © 2019
+		</div>
 	</footer>
 </body>
 </html>
