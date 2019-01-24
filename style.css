@@ -143,6 +143,10 @@ table {
 }
 .banner-home{
 	position: relative;
+	background-image: url(https://picsum.photos/1905/955?image=454&blur);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 .signature{
 	align-items: center;
@@ -320,8 +324,6 @@ table {
 	}
 	.nav .wrapper .link-list li.nav-item{
 		font-size: 2.5em;
-	}
-	.nav .wrapper .link-list li.nav-item{
 		height: 90px;
 	}
 	.nav .wrapper .link-list>ul, .nav.mobile-nav-active .wrapper .link-list{
