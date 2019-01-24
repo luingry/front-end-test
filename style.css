@@ -79,7 +79,7 @@ table {
 	display: flex;
 	font-family: "Montserrat";
 	font-weight: 700;
-	height: 50%;
+	height: 100%;
 	letter-spacing: 3px;
 	margin-left: 30px;
 	cursor: pointer;
@@ -89,7 +89,7 @@ table {
 }
 .nav-item:after{
 	background-color: black;
-	bottom: 0;
+	top: 100%;
 	content: "";
 	height: 5px;
 	left: 50%;
