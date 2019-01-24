@@ -317,6 +317,13 @@ table {
 	.newsletter form{
 		flex-direction: column;
 	}
+	.nav .wrapper .link-list li.nav-item{
+		height: 70px;
+	}
+	.nav .wrapper .link-list>ul, .nav.mobile-nav-active .wrapper .link-list{
+		height: 568px;
+	}
+
 } 
 @media screen and (max-width: 1368px){
 	.menu-toggle{
