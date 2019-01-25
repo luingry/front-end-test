@@ -16,35 +16,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-    display: block;
+  display: block;
 }
 body {
-    line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-    list-style: none;
+  list-style: none;
 }
 blockquote, q {
-    quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-    content: '';
-    content: none;
+  content: '';
+  content: none;
 }
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 /*Reset end here*/
 *{
@@ -107,22 +107,21 @@ table {
 }
 .nav-item:hover:after{
 	width: 100%;
-
 }
 .nav-item.menu-toggle, .nav-item.search{
 	font-size: 1.5em;
 	color: black;
 }
 .nav .search-form{
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	top: 100%;
+	transition: 200ms;
 	width: 0;
-    transition: 200ms;
-    overflow: hidden;
-    position: absolute;
-    top: 100%;
-    right: 0;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
+	z-index: 2;
 }
 .nav .search-form form{
 	width: 100%;
@@ -130,14 +129,14 @@ table {
 .nav .search-form input{
 	border: 1px solid #eeeeee;
 	box-sizing: border-box;
-	height: 100px;
 	font-size: 1em;
+	height: 100px;
 	padding-left: 30px;
 	transition: all 200ms ease-in-out;
 	width: 100%;
 }
 .nav.search-bar-active .search-form{
-    width: 50%;
+  width: 50%;
 }
 .nav-icons:after{
 	display: none;
@@ -227,29 +226,28 @@ table {
 	letter-spacing: 5px;
 	text-align: center;
 	text-transform: uppercase;
-
 }
 .newsletter-info{
 	color: #aaaaaa;
 	font-family: "Montserrat";
 	font-size: 1.5em;
 	font-weight: 300;
+	line-height: 150%;
 	margin: 2.5%;
 	text-align: center;
-	line-height: 150%;
 	width: 80%;
 }
 .newsletter form{
 	display: inline-flex;
+	max-width: 80%;
 	position: relative;
 	width: 100%;
-	max-width: 80%;
 }
 .newsletter input.e-mail{
 	border: 1px solid #aaaaaa;
 	color: #aaaaaa;
-    font-family: "Montserrat";
-    padding: 0 30px;
+	font-family: "Montserrat";
+	padding: 0 30px;
 	transition: all 200ms ease-in-out;
 	width: 100%;
 }
@@ -258,17 +256,17 @@ table {
 	border: 0;
 	color: white;
 	font-family: "Montserrat";
-    font-weight: 700;
-    max-width: 200px;
-    padding: 20px;
-    text-transform: uppercase;
-    transition: all 200ms ease-in-out;
-    width: 30%;
+  font-weight: 700;
+  max-width: 200px;
+  padding: 20px;
+  text-transform: uppercase;
+  transition: all 200ms ease-in-out;
+  width: 30%;
 }
 .newsletter input.e-mail:focus, .nav .search-form input:focus{
-    border: 2px solid black;
-    outline: none;
-    transition: all 200ms ease-in-out;
+  border: 2px solid black;
+  outline: none;
+  transition: all 200ms ease-in-out;
 }
 .social-icons{
 	margin: 5% 0;
@@ -381,10 +379,8 @@ table {
 	}
 	.nav .wrapper .logo img{
 		width: 100%;
-	}
-	
+	}	
 }
-
 @media screen and (max-width: 1024px){
 	.newsletter input.e-mail{
 		height: 70px;
@@ -414,7 +410,6 @@ table {
 	.nav .search-form input{
 		font-size: 1.3em;
 	}
-
 } 
 @media screen and (max-width: 768px){
 	.nav .search-form input{
@@ -432,8 +427,7 @@ table {
 	.nav .wrapper{
 		height: 120px;
 	}
-}
- 
+} 
 @media screen and (max-width: 425px){
 	.nav .search-form input{
 		font-size: 1em;
