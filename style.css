@@ -255,6 +255,7 @@ table {
 	background-color: black;
 	border: 0;
 	color: white;
+	cursor: pointer;
 	font-family: "Montserrat";
   font-weight: 700;
   max-width: 200px;
