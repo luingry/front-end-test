@@ -412,7 +412,17 @@ table {
 		font-size: 3em;
 		margin-left: 50px;
 	}
+	.nav .wrapper .logo img{
+		width: 100%;
+	}
 	
+}
+@media screen and (max-width: 768px){
+	.nav .search-form input{
+		font-size: 1.3em;
+		width: 100%;
+	}
+
 }
  
 
