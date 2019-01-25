@@ -387,14 +387,14 @@ table {
 
 @media screen and (max-width: 1024px){
 	.newsletter input.e-mail{
-		height: 100px;
+		height: 70px;
 		font-size: 1.5em;
 		text-align: center;
 		width: auto;
 	}
 	.newsletter .submit{
-		font-size: 2em;
-		height: 100px;
+		font-size: 1.5em;
+		height: 70px;
 		max-width: 100%;
 		width: 100%;
 	}
